@@ -94,8 +94,8 @@ def main():
     pd.set_option('display.max_rows', None)
 
     # get data set
-    raw_features = pd.read_csv('data/DATASET1_variables.csv')
-    raw_labels = pd.read_csv('data/DataSet2_time_series.csv')
+    raw_features = pd.read_csv('DATASET1_variables.csv')
+    raw_labels = pd.read_csv('DataSet2_time_series.csv')
 
     # filter data set
     filtered_df = filter_combine_df(raw_features, raw_labels)
